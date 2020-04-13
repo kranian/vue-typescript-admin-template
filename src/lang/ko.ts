@@ -62,7 +62,10 @@ export default {
     clipboard: 'Clipboard',
     i18n: '언어',
     externalLink: '외부 링크',
-    profile: '프로필'
+    profile: '프로필',
+  // ---- adding route name,
+    controlTable: '스마트센서',
+    sensorControl: '센서제어'
   },
   navbar: {
     dashboard: '대시보드',
@@ -158,6 +161,33 @@ export default {
     documentation: '테마 문서',
     tips: 'Tips: 탐색 모음의 테마 선택과는 다른 응용 프로그램 시나리오가있는 두 가지 다른 스키닝 방법입니다. 자세한 내용은 설명서를 참조하십시오.'
   },
+  sensor_control: {
+    dynamicTips1: '정렬된 헤더',
+    dynamicTips2: '정렬되지 않은 헤더',
+    dragTips1: '기본 순서',
+    dragTips2: '드래그한 순서',
+    title: '타이틀',
+    importance: '중요성',
+    type: 'Type',
+    remark: 'Remark',
+    search: '검색',
+    add: '추가',
+    export: '내보내기',
+    reviewer: 'Reviewer',
+    id: 'ID',
+    date: '날짜',
+    author: '글쓴이',
+    readings: 'Readings',
+    status: '상태',
+    actions: 'Actions',
+    edit: '수정',
+    publish: '게시',
+    draft: 'Draft',
+    delete: '삭제',
+    cancel: '취소',
+    confirm: '확인'
+  },
+
   tagsView: {
     refresh: '새로고침',
     close: '닫기',
